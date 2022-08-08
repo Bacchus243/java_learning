@@ -49,11 +49,11 @@ public class vending
 		nickels = change / 5;
 		change = change - nickels * 5;
 		
-		pennies = change;
-		
-		
+		cents = change;
 		
 		// Return the difference in the appropriate coinage
+		System.out.println("Your change is " + dollars + " dollars and " + quarters + " quarters");
+		
 		System.out.printf("Your change back is %d dollar coin(s),", dollars);
 		System.out.printf(" %d quarter(s),", quarters);
 		System.out.printf(" %d dime(s),", dimes);

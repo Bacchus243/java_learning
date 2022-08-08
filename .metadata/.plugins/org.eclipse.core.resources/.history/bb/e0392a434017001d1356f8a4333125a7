@@ -14,10 +14,9 @@ public class vending
 			// outputs
 		int change = 0;
 		int dollars = 0;
+		int cents = 0;
 		int quarters = 0;
-		int dimes = 0;
-		int nickels = 0;
-		int pennies = 0;
+		
 		
 		
 		// What is the customer purchasing? 
@@ -37,28 +36,18 @@ public class vending
 		// Find the change
 		change = payment * 100 - price;
 //		System.out.println(change);
-		dollars = change / 100;		
+		dollars = change / 100;
+		
 		change = change - dollars * 100;
 		
-		quarters = change / 25;
-		change = change - quarters * 25;
-		
-		dimes = change / 10;
-		change = change - dimes * 10;
-		
-		nickels = change / 5;
-		change = change - nickels * 5;
-		
-		pennies = change;
-		
-		
+		cents = change % 100;
+		quarters = cents / 25;
 		
 		// Return the difference in the appropriate coinage
-		System.out.printf("Your change back is %d dollar coin(s),", dollars);
-		System.out.printf(" %d quarter(s),", quarters);
-		System.out.printf(" %d dime(s),", dimes);
-		System.out.printf(" %d nickel(s)", nickels);
-		System.out.printf(" and %d pennies", pennies);
+		System.out.println("Your change is " + dollars + " dollars and " + quarters + " quarters");
+		
+		System.out.printf("Your change back is %d dollar coin(s)", dollars);
+		System.out.printf(" and %d quarter(s).%n", quarters);
 		
 		
 		in.close();
