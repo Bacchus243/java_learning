@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class vending 
+{
+	public static void main(String[] args)
+	{
+		Scanner in = new Scanner(System.in);
+		// Declare variables
+		
+			// inputs
+		int payment;
+		float price;
+		
+			// outputs
+		int change = 0;
+		int dollars = 0;
+		int quarters = 0;
+		
+		
+		
+		// What is the customer purchasing? 
+		
+		
+		
+		// Find the change
+		dollars = payment - price;
+		
+		// Return the difference in the appropriate coinage
+		
+		
+	}
+
+}

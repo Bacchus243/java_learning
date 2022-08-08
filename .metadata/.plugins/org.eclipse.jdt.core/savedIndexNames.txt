@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/Users/trenton/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+125555786.index
+80986043.index
+2089348824.index
+1865797976.index

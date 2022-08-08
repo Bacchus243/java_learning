@@ -1,0 +1,21 @@
+
+public class vending 
+{
+	public static void main(String[] args)
+	{
+		// Declare needed variables
+		
+		
+		// What is the customer purchasing? 
+				// Priced in multiples of 25 cents
+		
+		
+		// Find the change
+		
+		
+		// Return the difference in the appropriate coinage
+		
+		
+	}
+
+}
