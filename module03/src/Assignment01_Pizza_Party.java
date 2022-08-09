@@ -45,7 +45,7 @@ public class Assignment01_Pizza_Party {
 
         // display the required outputs
         System.out.printf("Total number of slices of pizza               : %d\n", totalSlices);
-        System.out.printf("total number of slices given to adults        : %d\n", slicesForAdults);
+        System.out.printf("Total number of slices given to adults        : %d\n", slicesForAdults);
         System.out.printf("Total number of slices available for children : %d\n", slicesForChildren);
         System.out.printf("Number of slices each child will get          : %d\n", slicesPerChild);
         System.out.printf("Number of slices left over                    : %d\n", slicesRemaining);        
