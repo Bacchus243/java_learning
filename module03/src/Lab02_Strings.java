@@ -66,6 +66,6 @@ public class Lab02_Strings {
         	System.out.println("String comparison using \"equals\" method does NOT work");
         }
         
-        
+        scan.close();
     } //end main method
 } //end Lab2 class
